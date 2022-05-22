@@ -1,0 +1,38 @@
+[global/wm]
+margin-top = 0
+margin-bottom = 0
+
+[color]
+base = #ecd0d2
+darkgreen = #21251e
+red = #d22231
+
+[bar/fire]
+override-redirect = false
+bottom = false
+fixed-center = true
+
+width = 100%
+height = 48
+
+font-0 = "Gohu:size=14:style=Regular;1"
+font-1 = "Wuncon Siji:size=14;1"
+
+background = ${color.base}
+foreground = ${color.darkgreen}
+
+line-color = ${color.red}
+underline-size = 0
+overline-size = 0
+
+border-bottom-size = 5
+border-bottom-color = ${color.red}
+
+padding-left = 5
+padding-right = 5
+module-margin-left = 3
+module-margin-right = 3
+
+tray-position = right
+tray-padding = 0
+tray-maxsize = 16
